@@ -1,10 +1,10 @@
+name: Quarto Publish gh-pages Branch with RENV
+# Originally sourced https://quarto.org/docs/publishing/github-pages.html#example-knitr-with-renv
+
 on:
   workflow_dispatch:
   push:
     branches: main
-
-name: Quarto Publish
-# Originally sourced https://quarto.org/docs/publishing/github-pages.html#example-knitr-with-renv
 
 jobs:
   build-deploy:
