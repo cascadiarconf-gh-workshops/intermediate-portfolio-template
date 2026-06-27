@@ -8,8 +8,6 @@ on:
   push:
     branches: main
 
-name: Quarto Publish
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
